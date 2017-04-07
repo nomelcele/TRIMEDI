@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="205dp"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="새로운 비밀번호를 입력해 주세요."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:id="@+id/textView63"
+            android:gravity="left|center"
+            android:layout_weight="0.18"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/newPwdEdit"
+            android:layout_weight="0.18"
+            android:hint="비밀번호" />
+
+        <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/newPwdConfirmEdit"
+            android:layout_weight="0.18"
+            android:hint="비밀번호 재 입력" />
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView65"-->
+            <!--android:layout_weight="0.79"-->
+            <!--android:text="비밀번호는 8~16자의 영문 대소문자, 숫자, 특수문자를 조합하여 설정해 주세요. 안전을 위해 자주 사용했거나 쉬운 비밀번호가 아닌 새 비밀번호를 등록하고 주기적으로 변경해 주세요. " />-->
+  <!---->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="110dp"
+        android:layout_weight="0.12"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/newPwdOkBtn"
+            android:text="확인"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="@drawable/settings_btn"
+            android:layout_gravity="right"
+            android:layout_width="78dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

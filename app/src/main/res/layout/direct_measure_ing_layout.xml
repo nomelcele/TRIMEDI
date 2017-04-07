@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressBar4"
+
+            android:indeterminate="true"
+
+            android:indeterminateDrawable="@drawable/progress"
+            android:layout_weight="0.31"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="측정 중..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView35"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/direct_measure_progress_circle"
+            android:id="@+id/imageView12"
+            android:layout_weight="0.31"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

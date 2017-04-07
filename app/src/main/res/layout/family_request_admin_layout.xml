@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/background_light">
+
+
+    <LinearLayout
+        android:id="@+id/frAdminLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/familyReqNoticeLayout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="요청이 없습니다."
+                android:gravity="center"
+                android:id="@+id/familyReqNoticeView"/>
+
+        </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="23dp"></LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/famReqLayout1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="이름"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView07"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famReqMemNameView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="성별/나이"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView00"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:id="@+id/famReqMemGenderAgeView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="계정 이메일"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView01"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famReqMemMailView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="200dp">
+
+                    <Button
+                        android:text="승인"
+                        android:id="@+id/famReqOkBtn1"
+                        android:background="@drawable/settings_btn"
+                        android:layout_width="78dp"
+                        android:layout_height="35dp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginRight="10dp"/>
+
+                    <Button
+                        android:text="거부"
+                        android:layout_width="78dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/famReqRefuseBtn1"
+                        android:background="@drawable/cancel_btn"
+                        android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:background="@android:color/darker_gray"></LinearLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/famReqLayout2">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="이름"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView57"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famReqMemNameView2"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="성별/나이"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView60"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:id="@+id/famReqMemGenderAgeView2"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="계정 이메일"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView61"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famReqMemMailView2"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="200dp">
+
+                <Button
+                    android:text="승인"
+                    android:id="@+id/famReqOkBtn2"
+                    android:background="@drawable/settings_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:text="거부"
+                    android:layout_width="78dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/famReqRefuseBtn2"
+                    android:background="@drawable/cancel_btn"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="23dp"></LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="331dp"-->
+        <!--android:layout_height="78dp"-->
+        <!--android:layout_gravity="center">-->
+
+        <!--<TextView-->
+            <!--android:text="타이레놀"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/textView35"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="left|center"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="@android:color/black" />-->
+
+        <!--<TextView-->
+            <!--android:text="33"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/textView36"-->
+            <!--android:layout_weight="0.60"-->
+            <!--android:gravity="right|center"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="@android:color/darker_gray" />-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="16dp"-->
+            <!--android:layout_height="match_parent"></LinearLayout>-->
+
+        <!--<Button-->
+            <!--android:text="복용"-->
+            <!--android:layout_width="77dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:id="@+id/button9"-->
+            <!--android:background="@drawable/buttonblue"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_weight="0.21" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="331dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--android:layout_gravity="center"></LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="331dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="타이레놀"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView135"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView136"
+            android:layout_weight="0.60"
+            android:gravity="right|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:text="복용"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/button19"
+            android:layout_weight="0.33"
+            android:background="@drawable/buttonblue"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="331dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="타이레놀"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView235"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView236"
+            android:layout_weight="0.60"
+            android:gravity="right|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:text="복용"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/button29"
+            android:layout_weight="0.33"
+            android:background="@drawable/buttonblue"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="331dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="타이레놀"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView335"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView336"
+            android:layout_weight="0.60"
+            android:gravity="right|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:text="복용"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/button93"
+            android:layout_weight="0.33"
+            android:background="@drawable/buttonblue"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="331dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="타이레놀"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView345"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView346"
+            android:layout_weight="0.60"
+            android:gravity="right|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:text="복용"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/button49"
+            android:layout_weight="0.33"
+            android:background="@drawable/buttonblue"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"
+        ></LinearLayout>
+
+</LinearLayout>

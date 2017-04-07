@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_weight="0.02"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="81dp">
+
+                <TextView
+                    android:text="2016.10.26. ~ 2016.11.02. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView9"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:gravity="left|center"/>
+
+                <Button
+                    android:text="복용기록"
+                    android:layout_width="87dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/eat"
+                    android:background="@drawable/buttonwhite"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:text="서울아산병원 정형외과 홍길동  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:text="약품명"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView11"
+                android:layout_weight="1.00"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:text="투여량(아침/점심/저녁) "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="773dp"
+                android:id="@+id/list2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="복약 주의사항"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="99dp"
+            android:layout_weight="0.39"
+            android:layout_gravity="bottom|center">
+
+            <TextView
+                android:text="복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 복약 주의 사항 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

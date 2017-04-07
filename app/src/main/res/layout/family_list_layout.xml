@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="1">-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/familyListNoticeLayout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="가족 정보가 없습니다."
+                android:gravity="center"
+                android:id="@+id/familyListNoticeView"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/familyListLayout">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="이름"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famMemNameView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="성별/나이"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:id="@+id/famMemGenderAgeView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="계정 이메일"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:gravity="left|center"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famMemMailView1"
+                    android:layout_weight="1.00"
+                    android:gravity="right|center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="331dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:text="알림"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.69"
+                    android:textSize="18sp"
+                    android:textColor="@color/menu_text_color"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/famNotifySwitch1"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="360dp"
+                android:layout_height="77dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:layout_weight="0.81">
+
+                    <Button
+                        android:text="삭제"
+                        android:layout_width="91dp"
+                        android:layout_height="41dp"
+                        android:id="@+id/deleteFamMemBtn1"
+                        android:layout_gravity="right"
+                        android:background="@drawable/settings_btn"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:text="연결된 가족의 맥박/체온 측정값이 비정상일 때, 지정된 시간으로부터 1시간 이상 약을 먹지 않았을 경우 알림이 보내집니다. "-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView64"-->
+            <!--android:layout_weight="0.35" />-->
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/famMem2InfoLayout">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="331dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:text="이름"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.00"
+                        android:gravity="left|center"
+                        android:textSize="18sp"
+                        android:textColor="@color/menu_text_color" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/famMemNameView2"
+                        android:layout_weight="1.00"
+                        android:gravity="right|center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="331dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:text="성별/나이"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.00"
+                        android:gravity="left|center"
+                        android:textSize="18sp"
+                        android:textColor="@color/menu_text_color" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="67dp"
+                        android:id="@+id/famMemGenderAgeView2"
+                        android:layout_weight="1.00"
+                        android:gravity="right|center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="331dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:text="계정 이메일"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.00"
+                        android:gravity="left|center"
+                        android:textSize="18sp"
+                        android:textColor="@color/menu_text_color" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/famMemMailView2"
+                        android:layout_weight="1.00"
+                        android:gravity="right|center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="331dp"
+                    android:layout_height="59dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:text="알림"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView56"
+                        android:layout_weight="2.69"
+                        android:textSize="18sp"
+                        android:textColor="@color/menu_text_color"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/switch2"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="27dp"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="360dp"
+                    android:layout_height="77dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:layout_weight="0.81">
+
+                        <Button
+                            android:text="삭제"
+                            android:layout_width="91dp"
+                            android:layout_height="41dp"
+                            android:id="@+id/ok"
+                            android:layout_gravity="right"
+                            android:background="@drawable/settings_btn"
+                            android:textColor="@android:color/white"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="연결된 가족의 맥박/체온 측정값이 비정상일 때, 지정된 시간으로부터 1시간 이상 약을 먹지 않았을 경우 알림이 보내집니다. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+<!--</LinearLayout>-->

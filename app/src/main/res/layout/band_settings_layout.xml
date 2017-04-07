@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="23dp"></LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:padding="20dp">
+
+        <TextView
+            android:text="디바이스 연결"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:layout_weight="0.89"
+            android:gravity="left|center"
+            android:textSize="18sp"/>
+
+
+        <Switch
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bandConnectSwitch"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat"
+            android:checked="false"
+            android:layout_weight="0.13"
+            android:splitTrack="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:padding="20dp">
+
+        <TextView
+            android:text="측정주기 설정"
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView69"
+            android:gravity="left|center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="1분 마다"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/measurePeriodSet"
+            android:gravity="right|center"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:padding="20dp">
+
+        <TextView
+            android:text="알림"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView70"
+            android:layout_weight="11.32"
+            android:gravity="left|center"
+            android:textSize="18sp"/>
+
+        <Switch
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bandNofiSwitch"
+            android:layout_weight="1.39"
+            android:splitTrack="false"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"></LinearLayout>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/bandTimerBtn"/>-->
+
+</LinearLayout>

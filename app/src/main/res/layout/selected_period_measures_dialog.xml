@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="420dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customDialogTitleView"
+            android:gravity="center"
+            android:text="기간 선택"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/customDialogContentView"-->
+            <!--android:gravity="center"-->
+            <!--android:text="내용"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginBottom="30dp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시작일"/>
+
+            <DatePicker
+                android:id="@+id/startDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"></DatePicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="종료일"/>
+
+            <DatePicker
+                android:id="@+id/endDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"></DatePicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/measuresDialogOkBtn"
+                android:text="조회"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/measuresDialogCancelBtn"
+                android:text="취소"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

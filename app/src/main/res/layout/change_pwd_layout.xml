@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="현재 계정과 비밀번호를 입력하여 주세요."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:id="@+id/textView63"
+            android:gravity="left|center"
+            android:layout_weight="0.18"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/currentMailEdit"
+            android:layout_weight="0.19"
+            android:layout_gravity="center"
+            android:hint="Email" />
+
+        <EditText
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/currentPwdEdit"
+            android:layout_weight="0.18"
+            android:layout_gravity="center"
+            android:hint="PassWord" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="110dp"
+        android:layout_weight="0.12"
+        android:weightSum="1"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/currentMailPwdConfirmBtn"
+            android:text="확인"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_width="98dp"
+            android:layout_height="43dp"
+            android:background="@drawable/settings_btn"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

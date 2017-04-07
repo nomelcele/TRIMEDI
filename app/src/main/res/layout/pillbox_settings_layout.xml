@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="23dp"></LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:padding="20dp">
+
+        <TextView
+            android:text="알림"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView32"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Switch
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pillBoxAlarmSwitch" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"></LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/background_light">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingBottom="3dp">
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="24dp"-->
+                <!--android:id="@+id/textView43"-->
+                <!--android:textSize="36sp" />-->
+
+            <TextView
+                android:text="개인정보 설정"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black"></LinearLayout-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToMemberInfo"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:text="개인정보 확인 및 변경"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <Button
+                android:text="로그인 설정"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToLoginSet"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color"
+                android:layout_width="331dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:weightSum="1"
+            android:paddingLeft="15dp"
+
+            >
+
+            <TextView
+                android:text="가족 관리"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView55"
+                android:textSize="22sp"
+                android:textColor="@android:color/darker_gray"
+                android:gravity="bottom" />
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black"></LinearLayout-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="157dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="가족 등록 요청"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToSendFr"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color"
+                android:gravity="left|center"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+
+            <Button
+                android:text="가족 등록 요청 관리"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToFrAdmin"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color"
+                android:gravity="left|center"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <Button
+                android:text="가족 확인 "
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToFamilyList"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color"
+                android:gravity="left|center"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:weightSum="1"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:text="디바이스 설정 "
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView42"
+                android:gravity="bottom"
+                android:textSize="22sp"
+                android:textColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black"></LinearLayout-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="밴드 설정"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToBandSettings"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <Button
+                android:text="약통 설정"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToPillBoxSettings"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:weightSum="1"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:text="어플리케이션 정보 "
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView50"
+                android:gravity="bottom"
+                android:textSize="22sp"
+                android:textColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black"></LinearLayout-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="331dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button52"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:text="업데이트"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <Button
+                android:text="현재 버전"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToCurrentVersion"
+                android:drawableRight="@drawable/go_to_activity_icon"
+                android:gravity="left|center"
+                android:background="@drawable/buttonwhite"
+                android:textColor="@color/menu_text_color"
+                android:layout_width="331dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

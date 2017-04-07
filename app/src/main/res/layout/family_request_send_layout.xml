@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="가족 등록 요청을 보낼 회원의 이메일 주소를 입력해주세요. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"></LinearLayout>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/receiverEmailEdit"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:hint="Email"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="331dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="확인"
+            android:layout_width="88dp"
+            android:layout_height="39dp"
+            android:id="@+id/sendFrBtn"
+            android:layout_gravity="right"
+            android:background="@drawable/settings_btn"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

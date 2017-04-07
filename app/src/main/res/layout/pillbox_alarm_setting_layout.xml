@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:text="아침"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="시간을 설정해 주세요."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/morningAlarmTime"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textColor="@color/normal_text_color"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/alarm_setting_icon"
+                android:id="@+id/morningAlarmPicker"
+                android:layout_weight="0.72"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:text="점심"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="시간을 설정해 주세요."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/afternoonAlarmTime"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="right"
+            android:textColor="@color/normal_text_color"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/alarm_setting_icon"
+            android:id="@+id/afternoonAlarmPicker"
+            android:layout_weight="0.72"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:text="저녁"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="시간을 설정해 주세요."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eveningAlarmTime"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="right"
+            android:textColor="@color/normal_text_color"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/alarm_setting_icon"
+            android:id="@+id/eveningAlarmPicker"
+            android:layout_weight="0.72"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@color/pillbox_theme_color"
+        android:textColor="#FFFFFF"
+        android:text="완료"
+        android:id="@+id/alarmSettingBtn"/>
+
+</LinearLayout>

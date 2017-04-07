@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android36Http</string>
+
+    <string name="insertTitle">INSERT PAGE</string>
+    <string name="selectTitle">SELECT PAGE</string>
+    <string name="searchTitle">SEARCH PAGE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="insert_txt_id">ID</string>
+    <string name="insert_txt_pw">PW</string>
+    <string name="insert_txt_name">NAME</string>
+    <string name="insert_txt_tel">TEL</string>
+
+
+
+</resources>

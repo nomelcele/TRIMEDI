@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/memMail"
+            android:inputType="textEmailAddress"
+            android:hint="@string/str_email"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/memName"
+            android:hint="@string/str_name"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/memPwd"
+            android:hint="@string/str_pwd"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/memConfirmPwd"
+            android:hint="@string/str_confirm_pwd"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/memBirth"
+            android:hint="@string/str_birth_date"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/memGender"
+            android:background="#FFFFFF"
+            android:popupBackground="#FFFFFF"/>
+
+        <Button
+            android:text="@string/str_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpBtn"
+            android:background="#9B45DA"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="60dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

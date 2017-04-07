@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "135380857036",
+    "firebase_url": "https://trimedi-f56fd.firebaseio.com",
+    "project_id": "trimedi-f56fd",
+    "storage_bucket": "trimedi-f56fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135380857036:android:5e2fbf4ef683c366",
+        "android_client_info": {
+          "package_name": "com.group2.trimedi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135380857036-oquvh7sdubb837sj86iqkb0391rq10dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB83mFl7QYMOF2BMdvnH1xQ4cE9sNEQJSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
